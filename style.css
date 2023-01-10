@@ -1,0 +1,43 @@
+main{
+    background-image: url('NASA.avif');
+    position: static;
+    width: 850px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width: 850px;
+    margin: 0 auto;
+    font-family: 'Archivo', sans-serif;
+}
+h1{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+h3{
+    font-weight: 1000;
+}
+p{
+    color: #939393;
+    font-weight: 300;
+}
+.container{
+    height: 324px;
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6E6E6;
+}
+button{
+    font-size: 20px;
+    border: none;
+    background-color: #4D4D4D;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+textarea{
+    resize: none;
+}
